@@ -1,0 +1,18 @@
+# Nmap 7.991 scan initiated Sat Oct 10 23:17:59 2026 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sV -oN C:\\Cybersecurity-Labs\\Network-Scanning\\scan-report.txt 127.0.0.1
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00053s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+445/tcp  open  microsoft-ds?
+1234/tcp open  hotline?
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+5357/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port1234-TCP:V=7.991%I=7%D=10/10%Time=6ACAB9A5%P=i686-pc-windows-window
+SF:s%r(GetRequest,3D,"=\0T\x20{\n\x20\x20\x20\"error\"\x20:\x20\"Invalid\x
+SF:20json\.\",\n\x20\x20\x20\"status\"\x20:\x20\"failed\"\n}\n");
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Oct 10 23:18:14 2026 -- 1 IP address (1 host up) scanned in 15.34 seconds
